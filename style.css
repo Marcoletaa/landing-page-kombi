@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .car-info {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .car-info img {
+    max-width: 100%;
+  }
+  
+  .contact-form {
+    flex: 1;
+    background-color: #eee6e6;
+    padding: 20px;
+  }
+  
+  h3 {
+    margin-top: 0;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    background-color: #9c1f1f;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #444;
+  }
+  .cta-button {
+    display: inline-block;
+    background-color: #FF5A5F;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #E4474D;
+    cursor: pointer;
+  }
+  .car-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .car-images img {
+    width: 30%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  @media (max-width: 768px) {
+    .car-images img {
+      width: 48%;
+    }
+  }
+  
+  
